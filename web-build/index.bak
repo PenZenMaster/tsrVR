@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Trade Show Ready | Sweets and Snacks Expo 2018</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <link rel="stylesheet" href="TemplateData/style.css" />
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+  </head>
+  <body>
+    
+      <div class="webgl-content">
+	  <div class="row">
+        <div class="column" style="background-color:#ff0000">Ad Space One Ad Space One Ad Space One Ad Space One Ad Space One Ad Space One Ad Space One Ad Space One </div>
+        <div class="column">
+          <div id="gameContainer" style="width: 960px; height: 600px"></div>
+        </div>
+        <div class="column" style="background-color:#00FF00">Ad Sapce Two Ad Sapce Two Ad Sapce Two Ad Sapce Two Ad Sapce Two Ad Sapce Two Ad Sapce Two Ad Sapce Two Ad Sapce</div>
+      </div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Sweets and Snacks Expo 2018</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+.column {
+    float: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
