@@ -16,30 +16,3 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: flex-start;
-    }
-
-.flex-item:nth-child(1) {
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-    }
-
-.flex-item:nth-child(2) {
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-    }
-
-.flex-item:nth-child(3) {
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-    }
